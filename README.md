@@ -11,19 +11,22 @@ Changing the theme `AppDelegate.swift`:
 
 ``` swift
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        ThemeManager.setTheme(theme: .Dark)
+    
+        let theme = ThemeManager.currentTheme()
+        ThemeManager.applyTheme(theme: theme)
+        
+        let mainController = MainTabBarController()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = mainController
+        window?.makeKeyAndVisible()
+        window?.backgroundColor = ThemeManager.currentTheme().mainBackgroundColor
+        
+        presentController(above: mainController)
 
-ThemeManager.setTheme(theme: .Dark)
-
-let theme = ThemeManager.currentTheme()
-ThemeManager.applyTheme(theme: theme)
-
-window = UIWindow(frame: UIScreen.main.bounds)
-window?.backgroundColor = ThemeManager.currentTheme().mainBackgroundColor
-window?.makeKeyAndVisible()
-window?.rootViewController = IntroViewController()
-
-return true
-}
+        return true
+    }
 ```
 ## Compatibility
 Telegram Intro is written in Swift 4 and requires iOS 10.0 or later.
