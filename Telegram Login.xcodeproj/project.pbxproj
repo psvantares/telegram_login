@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C0E717720E632CC00C01B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0E717620E632CC00C01B08 /* Assets.xcassets */; };
+		8CB9D49A20E605F30004D259 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D49920E605F30004D259 /* AppDelegate.swift */; };
+		8CB9D49C20E606040004D259 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CB9D49B20E606040004D259 /* CallingCodes.plist */; };
+		8CB9D49E20E606100004D259 /* CountryCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D49D20E606100004D259 /* CountryCodeViewController.swift */; };
+		8CB9D4A720E606C90004D259 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4A620E606C90004D259 /* ThemeManager.swift */; };
+		8CB9D4AA20E607470004D259 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4A920E607470004D259 /* Country.swift */; };
+		8CB9D4B020E608020004D259 /* TableViewCellExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4AF20E608020004D259 /* TableViewCellExtensions.swift */; };
+		8CB9D4B220E60B630004D259 /* PhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4B120E60B620004D259 /* PhoneNumberController.swift */; };
+		8CB9D4B420E60B690004D259 /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4B320E60B690004D259 /* PhoneNumberViewController.swift */; };
+		8CB9D4B620E60BA90004D259 /* PhoneNumberViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4B520E60BA90004D259 /* PhoneNumberViewContainer.swift */; };
+		8CB9D4B920E60C120004D259 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4B820E60C120004D259 /* Utilities.swift */; };
+		8CB9D4BC20E60E2F0004D259 /* DataGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4BB20E60E2F0004D259 /* DataGlobal.swift */; };
+		8CB9D4BE20E60EC00004D259 /* MethodExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4BD20E60EC00004D259 /* MethodExtensions.swift */; };
+		8CB9D4C520E610160004D259 /* VerificationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4C320E610160004D259 /* VerificationCodeViewController.swift */; };
+		8CB9D4C620E610160004D259 /* VerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4C420E610160004D259 /* VerificationController.swift */; };
+		8CB9D4C920E6104C0004D259 /* VerificationViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4C820E6104C0004D259 /* VerificationViewContainer.swift */; };
+		8CB9D4CB20E611130004D259 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4CA20E611130004D259 /* ViewExtensions.swift */; };
+		8CB9D4CF20E624980004D259 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CB9D4CE20E624980004D259 /* MainTabBarController.swift */; };
+		8CC25E2520E637EC00F2A9CC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC25E2420E637EC00F2A9CC /* ProfileViewController.swift */; };
+		8CC25E2B20E63F0500F2A9CC /* ProfileViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC25E2A20E63F0500F2A9CC /* ProfileViewContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C0E717620E632CC00C01B08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CB9D48420E605A40004D259 /* Telegram Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telegram Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB9D49320E605A50004D259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CB9D49920E605F30004D259 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CB9D49B20E606040004D259 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
+		8CB9D49D20E606100004D259 /* CountryCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryCodeViewController.swift; sourceTree = "<group>"; };
+		8CB9D4A620E606C90004D259 /* ThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		8CB9D4A920E607470004D259 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		8CB9D4AF20E608020004D259 /* TableViewCellExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellExtensions.swift; sourceTree = "<group>"; };
+		8CB9D4B120E60B620004D259 /* PhoneNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberController.swift; sourceTree = "<group>"; };
+		8CB9D4B320E60B690004D259 /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		8CB9D4B520E60BA90004D259 /* PhoneNumberViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewContainer.swift; sourceTree = "<group>"; };
+		8CB9D4B820E60C120004D259 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		8CB9D4BB20E60E2F0004D259 /* DataGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGlobal.swift; sourceTree = "<group>"; };
+		8CB9D4BD20E60EC00004D259 /* MethodExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodExtensions.swift; sourceTree = "<group>"; };
+		8CB9D4C320E610160004D259 /* VerificationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeViewController.swift; sourceTree = "<group>"; };
+		8CB9D4C420E610160004D259 /* VerificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationController.swift; sourceTree = "<group>"; };
+		8CB9D4C820E6104C0004D259 /* VerificationViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationViewContainer.swift; sourceTree = "<group>"; };
+		8CB9D4CA20E611130004D259 /* ViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		8CB9D4CE20E624980004D259 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		8CC25E2420E637EC00F2A9CC /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8CC25E2A20E63F0500F2A9CC /* ProfileViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CB9D48120E605A40004D259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CB9D47B20E605A40004D259 = {
+			isa = PBXGroup;
+			children = (
+				8CB9D48620E605A40004D259 /* Source */,
+				8CB9D48520E605A40004D259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8CB9D48520E605A40004D259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D48420E605A40004D259 /* Telegram Login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CB9D48620E605A40004D259 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8C0E717620E632CC00C01B08 /* Assets.xcassets */,
+				8CB9D4A320E606730004D259 /* Application */,
+				8CB9D4BA20E60E040004D259 /* Database */,
+				8CB9D4AC20E6078D0004D259 /* Extensions */,
+				8CB9D4A420E606820004D259 /* Controllers */,
+				8CB9D4B720E60BAB0004D259 /* Containers */,
+				8CB9D4A820E606CC0004D259 /* Managers */,
+				8CB9D4AB20E6074E0004D259 /* Models */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8CB9D4A320E606730004D259 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D49920E605F30004D259 /* AppDelegate.swift */,
+				8CB9D49B20E606040004D259 /* CallingCodes.plist */,
+				8CB9D49320E605A50004D259 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8CB9D4A420E606820004D259 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4CE20E624980004D259 /* MainTabBarController.swift */,
+				8CB9D4C220E6100A0004D259 /* Verification */,
+				8CB9D4C020E60FC30004D259 /* Country */,
+				8CB9D4BF20E60FB20004D259 /* PhoneNumber */,
+				8CC25E2320E637C800F2A9CC /* Profile */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8CB9D4A820E606CC0004D259 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4A620E606C90004D259 /* ThemeManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8CB9D4AB20E6074E0004D259 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4A920E607470004D259 /* Country.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8CB9D4AC20E6078D0004D259 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4AF20E608020004D259 /* TableViewCellExtensions.swift */,
+				8CB9D4BD20E60EC00004D259 /* MethodExtensions.swift */,
+				8CB9D4B820E60C120004D259 /* Utilities.swift */,
+				8CB9D4CA20E611130004D259 /* ViewExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8CB9D4B720E60BAB0004D259 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				8CC25E2620E638A700F2A9CC /* Profile */,
+				8CB9D4C720E6103B0004D259 /* Verification */,
+				8CB9D4C120E60FCE0004D259 /* PhoneNumber */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		8CB9D4BA20E60E040004D259 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4BB20E60E2F0004D259 /* DataGlobal.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		8CB9D4BF20E60FB20004D259 /* PhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4B320E60B690004D259 /* PhoneNumberViewController.swift */,
+				8CB9D4B120E60B620004D259 /* PhoneNumberController.swift */,
+			);
+			path = PhoneNumber;
+			sourceTree = "<group>";
+		};
+		8CB9D4C020E60FC30004D259 /* Country */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D49D20E606100004D259 /* CountryCodeViewController.swift */,
+			);
+			path = Country;
+			sourceTree = "<group>";
+		};
+		8CB9D4C120E60FCE0004D259 /* PhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4B520E60BA90004D259 /* PhoneNumberViewContainer.swift */,
+			);
+			path = PhoneNumber;
+			sourceTree = "<group>";
+		};
+		8CB9D4C220E6100A0004D259 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4C320E610160004D259 /* VerificationCodeViewController.swift */,
+				8CB9D4C420E610160004D259 /* VerificationController.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		8CB9D4C720E6103B0004D259 /* Verification */ = {
+			isa = PBXGroup;
+			children = (
+				8CB9D4C820E6104C0004D259 /* VerificationViewContainer.swift */,
+			);
+			path = Verification;
+			sourceTree = "<group>";
+		};
+		8CC25E2320E637C800F2A9CC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8CC25E2420E637EC00F2A9CC /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8CC25E2620E638A700F2A9CC /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8CC25E2A20E63F0500F2A9CC /* ProfileViewContainer.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CB9D48320E605A40004D259 /* Telegram Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CB9D49620E605A50004D259 /* Build configuration list for PBXNativeTarget "Telegram Login" */;
+			buildPhases = (
+				8CB9D48020E605A40004D259 /* Sources */,
+				8CB9D48120E605A40004D259 /* Frameworks */,
+				8CB9D48220E605A40004D259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telegram Login";
+			productName = "Telegram Country";
+			productReference = 8CB9D48420E605A40004D259 /* Telegram Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CB9D47C20E605A40004D259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sergey Popov";
+				TargetAttributes = {
+					8CB9D48320E605A40004D259 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 8CB9D47F20E605A40004D259 /* Build configuration list for PBXProject "Telegram Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CB9D47B20E605A40004D259;
+			productRefGroup = 8CB9D48520E605A40004D259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB9D48320E605A40004D259 /* Telegram Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CB9D48220E605A40004D259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C0E717720E632CC00C01B08 /* Assets.xcassets in Resources */,
+				8CB9D49C20E606040004D259 /* CallingCodes.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CB9D48020E605A40004D259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CB9D4C520E610160004D259 /* VerificationCodeViewController.swift in Sources */,
+				8CB9D49E20E606100004D259 /* CountryCodeViewController.swift in Sources */,
+				8CB9D49A20E605F30004D259 /* AppDelegate.swift in Sources */,
+				8CB9D4B620E60BA90004D259 /* PhoneNumberViewContainer.swift in Sources */,
+				8CB9D4B920E60C120004D259 /* Utilities.swift in Sources */,
+				8CC25E2520E637EC00F2A9CC /* ProfileViewController.swift in Sources */,
+				8CB9D4B020E608020004D259 /* TableViewCellExtensions.swift in Sources */,
+				8CB9D4B220E60B630004D259 /* PhoneNumberController.swift in Sources */,
+				8CB9D4C620E610160004D259 /* VerificationController.swift in Sources */,
+				8CB9D4BE20E60EC00004D259 /* MethodExtensions.swift in Sources */,
+				8CB9D4BC20E60E2F0004D259 /* DataGlobal.swift in Sources */,
+				8CB9D4CF20E624980004D259 /* MainTabBarController.swift in Sources */,
+				8CC25E2B20E63F0500F2A9CC /* ProfileViewContainer.swift in Sources */,
+				8CB9D4B420E60B690004D259 /* PhoneNumberViewController.swift in Sources */,
+				8CB9D4C920E6104C0004D259 /* VerificationViewContainer.swift in Sources */,
+				8CB9D4AA20E607470004D259 /* Country.swift in Sources */,
+				8CB9D4CB20E611130004D259 /* ViewExtensions.swift in Sources */,
+				8CB9D4A720E606C90004D259 /* ThemeManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CB9D49420E605A50004D259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CB9D49520E605A50004D259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CB9D49720E605A50004D259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WYA2JEST2;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlcori.telegramlogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8CB9D49820E605A50004D259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WYA2JEST2;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlcori.telegramlogin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CB9D47F20E605A40004D259 /* Build configuration list for PBXProject "Telegram Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB9D49420E605A50004D259 /* Debug */,
+				8CB9D49520E605A50004D259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CB9D49620E605A50004D259 /* Build configuration list for PBXNativeTarget "Telegram Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CB9D49720E605A50004D259 /* Debug */,
+				8CB9D49820E605A50004D259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CB9D47C20E605A40004D259 /* Project object */;
+}
